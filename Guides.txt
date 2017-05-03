@@ -1,0 +1,17 @@
+/* beautify ignore:start */
+----------------------------------------
+Git log out user from command line
+----------------------------------------
+
+Remove your SSH keys from ~/.ssh (or where you stored them).
+
+	Remove your user settings:
+	git config --global --unset user.name
+	git config --global --unset user.email
+	(or all your global settings: git config --global --unset-all )
+
+
+Remove github entry from windows credentials.
+	control panel > user accounts > credential manager > Windows credentials > Generic credentials
+
+/* beautify ignore:end */
