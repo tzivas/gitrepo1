@@ -12,5 +12,18 @@ Remove your SSH keys from ~/.ssh (or where you stored them).
 
 Remove github entry from windows credentials.
 	control panel > user accounts > credential manager > Windows credentials > Generic credentials
-	
+
 ----------------------------------------
+How do I show or change my Git username (or email address)?
+---------------------------------------
+
+Show your Git username
+
+	git config user.name // returns user name or email
+
+	git config --list // return a list with all parameters set
+
+
+Change Git email or username
+
+	git config --global user.name [username here]
